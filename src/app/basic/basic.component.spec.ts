@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FreeComponent } from './free.component';
+import { BasicComponent } from './basic.component';
 
-describe('FreeComponent', () => {
-  let component: FreeComponent;
-  let fixture: ComponentFixture<FreeComponent>;
+describe('BasicComponent', () => {
+  let component: BasicComponent;
+  let fixture: ComponentFixture<BasicComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FreeComponent ]
+      declarations: [ BasicComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FreeComponent);
+    fixture = TestBed.createComponent(BasicComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
